@@ -14,7 +14,17 @@ npm i promise.obj --save
 
 ## API
 ```
-const promiseObj = require('promise.obj');
+const pobj = require('promise.obj');
+
+const p = pobj({
+  x: Promise.resolve('x'),
+  y: Promise.resolve('y')
+});
+
+p.then(function(o){
+  o.x // 'x'
+  o.y // 'y'
+})
 ```
 
 ## Changelog

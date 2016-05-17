@@ -4,7 +4,7 @@
  * main exports
  */
 
-module.exports = function promiseObj(o, concurrency) {
+module.exports = function promiseObj(o) {
   var ks = Object.keys(o);
   var result = {};
 

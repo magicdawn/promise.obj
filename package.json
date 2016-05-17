@@ -24,6 +24,12 @@
   "bugs": {
     "url": "https://github.com/magicdawn/promise.obj/issues"
   },
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "homepage": "https://github.com/magicdawn/promise.obj#readme",
   "dependencies": {},
   "devDependencies": {
