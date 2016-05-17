@@ -1,0 +1,36 @@
+{
+  "name": "promise.obj",
+  "version": "0.0.1",
+  "description": "git@github.com:magicdawn/promise.obj.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cover": "istabul cover _mocha -- -u exports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicdawn/promise.obj.git"
+  },
+  "keywords": [
+    "promise",
+    "promise.props",
+    "promise.obj",
+    "props",
+    "obj",
+    "all"
+  ],
+  "author": "magicdawn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicdawn/promise.obj/issues"
+  },
+  "homepage": "https://github.com/magicdawn/promise.obj#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "eslint": "^2.10.1",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
+}
