@@ -1,7 +1,7 @@
 {
   "name": "promise.obj",
   "version": "0.0.1",
-  "description": "git@github.com:magicdawn/promise.obj.git",
+  "description": "promise.obj / promise.props etc",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
