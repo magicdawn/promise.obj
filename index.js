@@ -1,12 +1,6 @@
 'use strict';
 
 /**
- * module dependencies
- */
-
-var pmap = require('promise.map');
-
-/**
  * main exports
  */
 
