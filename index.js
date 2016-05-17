@@ -6,12 +6,10 @@
 
 module.exports = function promiseObj(o, concurrency) {
   var ks = Object.keys(o);
-  var result;
-  if (o.constructor) result = new o.constructor();
-  else result = {};
+  var result = {};
 
   var ps = ks.map(function(k) {
-    o[k].then(function(v) {
+    return o[k].then(function(v) {
       result[k] = v;
     });
   });
