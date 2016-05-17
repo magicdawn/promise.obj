@@ -1,5 +1,5 @@
 # promise.obj
-> git@github.com:magicdawn/promise.obj.git
+> promise.obj / promise.props
 
 [![Build Status](https://img.shields.io/travis/magicdawn/promise.obj.svg?style=flat-square)](https://travis-ci.org/magicdawn/promise.obj)
 [![Coverage Status](https://img.shields.io/coveralls/magicdawn/promise.obj.svg?style=flat-square)](https://coveralls.io/github/magicdawn/promise.obj?branch=master)
