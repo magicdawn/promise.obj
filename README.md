@@ -7,6 +7,9 @@
 [![npm downloads](https://img.shields.io/npm/dm/promise.obj.svg?style=flat-square)](https://www.npmjs.com/package/promise.obj)
 [![npm license](https://img.shields.io/npm/l/promise.obj.svg?style=flat-square)](http://magicdawn.mit-license.org)
 
+## Note
+this is target ES5 environment
+
 ## Install
 ```
 npm i promise.obj --save
