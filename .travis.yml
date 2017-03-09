@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "v7.6.1"
+  - v7.6.0
 script: "npm run test-cover"
 after_script: "npm run report-cover"
 notifications:
