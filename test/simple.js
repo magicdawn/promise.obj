@@ -16,19 +16,22 @@ describe('It works', function() {
     return Promise.reject(new Error(msg));
   };
 
-  it('normal works', function*() {
-    const o = yield pobj({
+  it('normal works', async function() {
+    const o = await pobj({
       hello: fn('hello'),
-      world: fn('world')
+      world: fn('world'),
+      x: '1',
+      y: 2,
+      z: null
     });
-
+    
     o.hello.should.equal('hello');
     o.world.should.equal('world');
   });
 
-  it('error works', function*() {
+  it('error works', async function() {
     try {
-      const o = yield pobj({
+      const o = await pobj({
         hello: fn('hello'),
         world: errFn('world')
       });
