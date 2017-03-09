@@ -16,7 +16,7 @@ globals:
 # rules
 rules:
   # basic
-  semi: [2, always] # ;
+  semi: [2, never] # ;
   indent: [2, 2]
   quotes: [2, single] # '' | ""
   eqeqeq: 2 # ===
@@ -34,9 +34,6 @@ rules:
   # disable default
   no-unused-vars: 0 # 已定义, 未使用
   no-console: 0 # console
-
-  # space
-  # 有 jsbeautify 保持风格
 
 parserOptions:
   ecmaVersion: 5
