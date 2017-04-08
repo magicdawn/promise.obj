@@ -1,4 +1,6 @@
 # promise.obj
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/promise.obj.svg)](https://greenkeeper.io/)
 > promise.obj / promise.props
 
 [![Build Status](https://img.shields.io/travis/magicdawn/promise.obj.svg?style=flat-square)](https://travis-ci.org/magicdawn/promise.obj)
