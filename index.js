@@ -1,10 +1,5 @@
-'use strict'
-
-/**
- * main exports
- */
-
-module.exports = function promiseObj(o) {
+module.exports = function pobj(o) {
+  o = o || {}
   var ks = Object.keys(o)
   var result = {}
 

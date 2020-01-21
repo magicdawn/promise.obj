@@ -22,9 +22,9 @@ describe('It works', function() {
       world: fn('world'),
       x: '1',
       y: 2,
-      z: null
+      z: null,
     })
-    
+
     o.hello.should.equal('hello')
     o.world.should.equal('world')
   })
@@ -33,7 +33,7 @@ describe('It works', function() {
     try {
       const o = await pobj({
         hello: fn('hello'),
-        world: errFn('world')
+        world: errFn('world'),
       })
     } catch (e) {
       e.should.instanceof(Error)
