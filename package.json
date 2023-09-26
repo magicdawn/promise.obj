@@ -12,11 +12,10 @@
     "LICENSE"
   ],
   "scripts": {
+    "prepare": "husky install",
     "test": "vitest run && tsd",
     "test-cover": "vitest run --coverage",
-    "report-cover": "codecov",
-    "gen-readme": "swig render ./readme/readme.md > README.md && prettier --write README.md",
-    "prepare": "husky install"
+    "gen-readme": "swig render ./readme/readme.md > README.md && prettier --write README.md"
   },
   "repository": {
     "type": "git",
