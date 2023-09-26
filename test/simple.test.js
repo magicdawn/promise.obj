@@ -1,22 +1,17 @@
-'use strict'
-
-/**
- * module dependencies
- */
-
-const pobj = require('../')
+const pobj = require('..')
 const should = require('should')
+import { describe, it, expect } from 'vitest'
 
-describe('It works', function() {
-  const fn = function(x) {
+describe('It works', function () {
+  const fn = function (x) {
     return Promise.resolve(x)
   }
 
-  const errFn = function(msg) {
+  const errFn = function (msg) {
     return Promise.reject(new Error(msg))
   }
 
-  it('normal works', async function() {
+  it('normal works', async function () {
     const o = await pobj({
       hello: fn('hello'),
       world: fn('world'),
@@ -29,7 +24,7 @@ describe('It works', function() {
     o.world.should.equal('world')
   })
 
-  it('error works', async function() {
+  it('error works', async function () {
     try {
       const o = await pobj({
         hello: fn('hello'),
