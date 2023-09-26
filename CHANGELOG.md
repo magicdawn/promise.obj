@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.3.1 2023-09-26
+
+- use `export = ` in types/index.d.ts
+
 ## v0.3.0 2023-09-26
 
 - use `Awaited` type in types/index.d.ts
